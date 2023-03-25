@@ -1,5 +1,7 @@
 # [W.I.P] dotfiles-i3-endeavouros
 
+WARNING - UNUSABLE REPO FOR NOW
+
 OS - EndeavourOS
 
 DE/WM - i3wm
