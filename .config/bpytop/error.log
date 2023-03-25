@@ -1,0 +1,11 @@
+24/03/23 (18:43:48) | ERROR: Data collection thread failed with exception: Precision not allowed in integer format specifier
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 2959, in _runner
+    collector._draw()
+  File "/usr/bin/bpytop", line 3991, in _draw
+    ProcBox._draw_fg()
+  File "/usr/bin/bpytop", line 2771, in _draw_fg
+    (f'{proc.details["threads"]:^{iw}.{iw2}}' if expand > 0 else "") + (f'{proc.details["nice"]:^{iw}.{iw2}}' if expand > 1 else "") +
+ValueError: Precision not allowed in integer format specifier
+24/03/23 (18:43:48) | WARNING: Exiting with errorcode (1). Runtime 0:17:26 
+
