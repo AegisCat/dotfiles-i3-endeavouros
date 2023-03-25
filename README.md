@@ -1,4 +1,4 @@
-# dotfiles-i3-endeavouros
+# [W.I.P] dotfiles-i3-endeavouros
 
 OS - EndeavourOS
 
