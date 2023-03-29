@@ -35,6 +35,10 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Set Wallpaper
 exec --no-startup-id feh --bg-scale /home/aegis/Pictures/Wallpapers/arch-black-4k.png
 
+# Open gnome-keyring on boot
+exec --no-startup-id gnome-keyring
+
+
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -203,17 +207,7 @@ gaps inner 10
 gaps top 42
 
 # Autostart
-exec --no-startup-id pcmanfm -d
-exec --no-startup-id sh $HOME/.config/gammastep/launch.sh
-exec_always --no-startup-id sh $HOME/.config/autostart/arch-autostart.sh
 exec_always --no-startup-id autotiling
-
-# Screenshot keybinds
-bindsym $mod+p exec flameshot full
-bindsym $mod+shift+p exec flameshot gui
-
-# Night light toggle
-bindsym $mod+o exec sh $HOME/.config/gammastep/toggle.sh
 
 # Inhibit
 #bindsym $mod+i exec caffeine & disown && notify-send "Inhibit: caffeine-ng 󰅶 enable"
