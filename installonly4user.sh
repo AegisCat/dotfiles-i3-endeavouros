@@ -42,3 +42,5 @@ sudo cp Wallpapers /home/aegis/Pictures/
 cd nvidiaconfig
 
 sudo cp -r 20-nvidia.conf /etc/X11/xorg.conf.d/
+
+echo "Make sure to run yay and sudo reboot to finish changes."
