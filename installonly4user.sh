@@ -15,7 +15,13 @@ sudo systemctl enable bluetooth
 
 sudo pacman -S nvidia-settings nvidia-utils lib32-nvidia-utils lib32-opencl-nvidia opencl-nvidia libvdpau libxnvctrl vulkan-icd-loader lib32-vulkan-icd-loader
 
-yay -S alacritty zsh hyfetch neofetch picom rofi nextcloud-client polybar gnome-keyring bpytop mc cava discord steam gamemode lib32-gamemode libstrangle mangohud blender krita gimp inkscape
+yay -S alacritty zsh hyfetch neofetch picom rofi nextcloud-client polybar gnome-keyring bpytop mc cava discord steam gamemode lib32-gamemode libstrangle mangohud blender krita gimp inkscape neovim
+
+sudo pacman -S git make pip python npm rustup
+
+rustup default stable
+
+LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh)
 
 sudo systemctl --user enable gamemoded && systemctl --user start gamemoded
 
