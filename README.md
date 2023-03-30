@@ -1,6 +1,6 @@
-# [W.I.P] dotfiles-i3-endeavouros
+# dotfiles-i3-endeavouros
 
-WARNING - UNUSABLE REPO FOR NOW
+WARNING - MY PERSONAL USE ONLY. USE AT YOUR OWN DISCRETION
 
 OS - EndeavourOS
 
@@ -15,6 +15,8 @@ Terminal - Alacriity
 Bar - Polybar
 
 Fetch - Neofetch + Hyfetch
+
+Compositor - picom
 
 ![Browser   LVIM](https://user-images.githubusercontent.com/45326071/227706895-f401f7b1-d654-4f20-ba12-c5a929f07c32.png)
 ![CLI MegaComp](https://user-images.githubusercontent.com/45326071/227706899-f2c5f660-5cb7-4a0c-ad57-e17821b38f03.png)
