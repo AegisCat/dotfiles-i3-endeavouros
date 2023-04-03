@@ -15,7 +15,7 @@ sudo systemctl enable bluetooth
 
 sudo pacman -S nvidia-settings nvidia-utils lib32-nvidia-utils lib32-opencl-nvidia opencl-nvidia libvdpau libxnvctrl vulkan-icd-loader lib32-vulkan-icd-loader
 
-yay -S alacritty zsh hyfetch neofetch picom rofi nextcloud-client polybar gnome-keyring bpytop mc cava discord steam gamemode lib32-gamemode libstrangle mangohud blender krita gimp inkscape neovim
+yay -S alacritty zsh hyfetch neofetch picom rofi nextcloud-client polybar gnome-keyring bpytop mc cava youtube-music-bin discord steam gamemode lib32-gamemode libstrangle mangohud blender krita gimp inkscape neovim
 
 sudo pacman -S git make pip python npm rustup
 
