@@ -31,6 +31,8 @@ sudo pacman -S starship
 
 sudo cp -r .config /home/aegis/
 
+sudo cp -r .local /home/aegis/
+
 curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
 
 chmod +x betterdiscordctl
