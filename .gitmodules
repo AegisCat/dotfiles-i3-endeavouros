@@ -1,0 +1,3 @@
+[submodule ".local/share/mc/skins/mc"]
+	path = .local/share/mc/skins/mc
+	url = https://github.com/catppuccin/mc.git
