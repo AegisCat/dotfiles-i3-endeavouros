@@ -45,7 +45,7 @@ sudo pacman -S starship
 
 6) Install Jetbrains and FiraCode fonts (Including Mono) from [Nerdfonts](https://www.nerdfonts.com/)
 
-7) Go into ~/.config/i3/ and edit 'config' to point to a wallpaper you want to setup and if you did (2) also point to your layout file. Otherwise delete the screenlayout line.
+7) Go into ~/.config/i3/ and edit 'config' to point to a wallpaper you want to setup and if you did (2) also point to your layout file. Otherwise delete the screenlayout line. Just edit any line that has my user on it or just delete them.
 
 8) If you don't use gnome-keyring then delete that line too. Save the file and restart your pc. Afterwards you should have everything set except a couple things.
 
